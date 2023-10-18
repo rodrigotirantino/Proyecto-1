@@ -1,0 +1,64 @@
+.main-container {
+	display:flex;
+	flex-flow: column;
+	background-color: #868;
+	border-radius: 30px;
+	padding: 40px;
+	margin: 60px 0px 0px 0px;
+	justify-content: space-around;
+}
+
+.encabezado {
+	display: flex;
+	flex-flow: row;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	margin: 0px 0px 0px 100px;
+}
+
+h1 {
+	font-size: 40px;
+	margin: 0px;
+	margin: 50px 0px 0px 0px;
+}
+
+.info-profesion {
+	margin: 0px;
+	font-size: 30px;
+}
+
+.info-personal {
+	margin: 0px;
+	font-size: 20px;
+}
+
+
+@media (max-width: 500px) {
+	.encabezado {
+		flex-direction: column;
+		align-items: center;
+	}
+	img {
+		align-items: ceneter;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.main-container {
+		align-items: ceneter;
+		margin: auto;
+	}
+}
+@media (max-width: 660px) {
+	h1 {
+		margin-top: 20px;
+	}
+	img {
+		width: 120px;
+		height: 120px;
+		margin-left: auto;
+	}
+}
